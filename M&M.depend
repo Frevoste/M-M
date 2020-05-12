@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1589282114 source:c:\users\rfrev\desktop\c++\projekt m&m\main.cpp
+	<iostream>
+	"menu.h"
+
+1589282107 c:\users\rfrev\desktop\c++\projekt m&m\menu.h
+	<iostream>
+	"okno.h"
+
+1589281937 c:\users\rfrev\desktop\c++\projekt m&m\okno.h
+	<windows.h>
+
