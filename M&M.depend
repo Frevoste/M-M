@@ -1,12 +1,26 @@
 # depslib dependency file v1.0
-1589282114 source:c:\users\rfrev\desktop\c++\projekt m&m\main.cpp
+1589364393 source:c:\users\rfrev\desktop\c++\projekt m&m\main.cpp
 	<iostream>
-	"menu.h"
+	"start.h"
 
-1589282107 c:\users\rfrev\desktop\c++\projekt m&m\menu.h
+1589366709 c:\users\rfrev\desktop\c++\projekt m&m\menu.h
+	<iostream>
+
+1589364244 c:\users\rfrev\desktop\c++\projekt m&m\okno.h
+	<windows.h>
+
+1589362510 c:\users\rfrev\desktop\c++\projekt m&m\naglowek.h
+	<iostream>
+
+1589364121 c:\users\rfrev\desktop\c++\projekt m&m\intro.h
+	<iostream>
+	<windows.h>
+
+1589364602 c:\users\rfrev\desktop\c++\projekt m&m\start.h
+	<windows.h>
 	<iostream>
 	"okno.h"
-
-1589281937 c:\users\rfrev\desktop\c++\projekt m&m\okno.h
-	<windows.h>
+	"naglowek.h"
+	"intro.h"
+	"menu.h"
 
