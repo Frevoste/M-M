@@ -32,9 +32,15 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="intro.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="menu.h" />
+		<Unit filename="naglowek.h" />
+		<Unit filename="naglowek_nowagra.h" />
+		<Unit filename="nowagra.h" />
 		<Unit filename="okno.h" />
+		<Unit filename="start.h" />
+		<Unit filename="stopka.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />

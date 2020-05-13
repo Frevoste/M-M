@@ -17,23 +17,30 @@
 	<iostream>
 	<windows.h>
 
-1589374763 c:\users\rfrev\desktop\c++\projekt m&m\start.h
+1589377618 c:\users\rfrev\desktop\c++\projekt m&m\start.h
 	<windows.h>
 	<iostream>
 	"okno.h"
-	"naglowek.h"
 	"intro.h"
 	"menu.h"
 
-1589375314 c:\users\rfrev\desktop\c++\projekt m&m\nowagra.h
+1589378900 c:\users\rfrev\desktop\c++\projekt m&m\nowagra.h
 	<iostream>
 	"naglowek_nowagra.h"
 	"stopka.h"
 	"string"
+	"gracz.h"
 
 1589371466 c:\users\rfrev\desktop\c++\projekt m&m\naglowek_nowagra.h
 	<iostream>
 
 1589369638 c:\users\rfrev\desktop\c++\projekt m&m\stopka.h
 	<iostream>
+
+1589378787 c:\users\rfrev\desktop\c++\projekt m&m\gracz.h
+	<iostream>
+
+1589378776 source:c:\users\rfrev\desktop\c++\projekt m&m\gracz.cpp
+	<iostream>
+	"gracz.h"
 

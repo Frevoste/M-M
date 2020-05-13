@@ -3,7 +3,7 @@
 #include "naglowek_nowagra.h"
 #include "stopka.h"
 #include "string"
-
+#include "gracz.h"
 
 
 
@@ -11,7 +11,9 @@ using namespace std;
 
 void nowagra()
 {
-    string imie,rasa; // TO DO ZMIANY NA CLASE KIEDY JUZ STWORZYMY
+    string imienew,rasanew; // TO DO ZMIANY NA CLASE KIEDY JUZ STWORZYMY
+    Gracz uzytkownik("Andrzej","Krasnolud",150,15,10,10);
+
     int zmienna;
 
 
@@ -53,14 +55,14 @@ void nowagra()
             cout << "                               " <<" lka pytan. Powiedz mi prosze jak masz na imie...      "<< endl;
             cout << endl;
             cout << "                               " <<"            Podaj swoje imie: ";
-            cin >> imie;
+            cin >> imienew;
             cout << endl;
-        }while(imie.length()>20||imie.length()<1);
+        }while(imienew.length()>20||imienew.length()<1);
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),11);
         cout << "                               " <<"                     [ STRAZNIK ]                      "<< endl;
         SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),15);
         cout << endl;
-        cout << "                               " << imie << "..." << endl;
+        cout << "                               " << imienew << "..." << endl;
         cout << "                               " << "Dosc egzotyczne imie, nigdy wczesniej takiego nie spo-"<< endl;
         cout << "                               " << "tkalem. Powiedz mi jeszcze, skad przybywasz?          "<< endl;
         cout << endl;
@@ -102,19 +104,24 @@ void nowagra()
         switch( zmienna )
         {
             case 1:
-                rasa="Ork";
+                rasanew="Ork";
+                uzytkownik.zmien(imienew,rasanew,150,15,10,10);
                 // TUTAJ PRZY OKAZJI ZWIEKSZYMY PODSTAWOWE STATYSTYKI NP DLA ORKA SILE O 4 ect ect... uzylem switcha zeby nie dalo sie wykasztanic tutaj programu.
                 break;
 
             case 2:
-                rasa="Elf";
+                rasanew="Elf";
+                uzytkownik.zmien(imienew,rasanew,80,12,15,15);
                 break;
             case 3:
-                rasa="Czlowiek";
+                rasanew="Czlowiek";
+                uzytkownik.zmien(imienew,rasanew,120,12,14,12);
+
                 break;
 
             default:
-                rasa="Krasnolud";
+                rasanew="Krasnolud";
+                uzytkownik.zmien(imienew,rasanew,100,15,15,10);
                 break;
         }
         cout << endl;
@@ -136,7 +143,15 @@ void nowagra()
         cout << endl;
 
     stopka();
+        cout << uzytkownik.imie << endl;
+        cout << uzytkownik.zdrowie << endl;
+        cout << uzytkownik.sila << endl;
+        cout << uzytkownik.szczescie << endl;
+        cout << uzytkownik.zrecznosc << endl;
     system("PAUSE");
+
+
+
 
 
 
