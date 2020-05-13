@@ -9,8 +9,7 @@ void start()
 {
     okno();
     intro();
-    Sleep(2000);
-    system ("CLS");
+    Sleep(3000);
     menu();
 
 }

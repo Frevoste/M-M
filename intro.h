@@ -2,7 +2,7 @@
 #include <windows.h>
 void intro()
 {
-    for(int i=0;i<19;i++)
+    for(int i=0;i<15;i++)
     {
         cout << endl;
     }

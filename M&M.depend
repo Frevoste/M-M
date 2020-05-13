@@ -3,8 +3,9 @@
 	<iostream>
 	"start.h"
 
-1589366709 c:\users\rfrev\desktop\c++\projekt m&m\menu.h
+1589374138 c:\users\rfrev\desktop\c++\projekt m&m\menu.h
 	<iostream>
+	"nowagra.h"
 
 1589364244 c:\users\rfrev\desktop\c++\projekt m&m\okno.h
 	<windows.h>
@@ -12,15 +13,27 @@
 1589362510 c:\users\rfrev\desktop\c++\projekt m&m\naglowek.h
 	<iostream>
 
-1589364121 c:\users\rfrev\desktop\c++\projekt m&m\intro.h
+1589374212 c:\users\rfrev\desktop\c++\projekt m&m\intro.h
 	<iostream>
 	<windows.h>
 
-1589364602 c:\users\rfrev\desktop\c++\projekt m&m\start.h
+1589374763 c:\users\rfrev\desktop\c++\projekt m&m\start.h
 	<windows.h>
 	<iostream>
 	"okno.h"
 	"naglowek.h"
 	"intro.h"
 	"menu.h"
+
+1589375314 c:\users\rfrev\desktop\c++\projekt m&m\nowagra.h
+	<iostream>
+	"naglowek_nowagra.h"
+	"stopka.h"
+	"string"
+
+1589371466 c:\users\rfrev\desktop\c++\projekt m&m\naglowek_nowagra.h
+	<iostream>
+
+1589369638 c:\users\rfrev\desktop\c++\projekt m&m\stopka.h
+	<iostream>
 

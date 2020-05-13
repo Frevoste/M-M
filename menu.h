@@ -1,10 +1,12 @@
 #include <iostream>
+#include "nowagra.h"
+
 using namespace std;
 
 
-    void menu()
+void menu()
 {
-
+    system ("CLS");
     for(int i=0; i<4;i++)
         cout << endl;
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),4);
@@ -51,16 +53,14 @@ using namespace std;
     cout << endl;
     SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),11);
     cout << "                          " << "    @Michalina_Calus                     @Mateusz_Redzimski  "<< endl;
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),14);
-    cout << "                          " << "  \\---------------------------------------------------------/" << endl;
-    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE),15);
+    stopka();
     int zmienna;
     cin >> zmienna;
     switch( zmienna )
     {
         case 1:
             system("cls");
-            cout << "WYBRALES NOWA GRE" << endl;
+            nowagra();
             break;
 
         case 2:
